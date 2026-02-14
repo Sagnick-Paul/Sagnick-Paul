@@ -81,7 +81,7 @@ I enjoy working on projects where hardware meets intelligence.
 # 🛠 Technical Stack
 
 ### 👨‍💻 Programming
-`Python` | `C` | `Java` | `JavaScript`
+`Python` | `C` | `Java` 
 
 ### 🤖 Machine Learning
 `NumPy` | `Pandas` | `Scikit-Learn` | `PyTorch` | `TensorFlow` | `OpenCV`
@@ -113,8 +113,8 @@ I enjoy working on projects where hardware meets intelligence.
 
 ## 📫 Connect With Me
 
-- 💼 LinkedIn: (Add link)
-- 📧 Email: (Add email)
+- 💼 LinkedIn: [(Add link)](https://www.linkedin.com/in/sagnick-paul-9aa30a352/)
+- 📧 Email: sp.professional2005@gmail.com
 
 ---
 
