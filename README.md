@@ -22,7 +22,6 @@ My work spans:
 I enjoy working on projects where hardware meets intelligence.
 
 ---
-
 # 🚀 Featured Projects
 
 
@@ -34,17 +33,6 @@ I enjoy working on projects where hardware meets intelligence.
 - Trained using PyTorch
 
 **Concepts:** Computer Vision | CNN | Medical Image Segmentation | Model Evaluation
-
----
-
-## 📊 Employee Turnover Analytics
-
-- Exploratory Data Analysis
-- Feature engineering & preprocessing
-- Classification models to predict attrition
-- Performance comparison across models
-
-**Concepts:** Machine Learning | Classification | Data Visualization | Business Analytics
 
 ---
 
@@ -70,25 +58,14 @@ I enjoy working on projects where hardware meets intelligence.
 
 ---
 
-## 🚗 Line Follower Robot
-
-- Arduino + L298N + 8-bit Digital IR Sensor Array
-- Optimized motor correction logic
-- High-speed stable line tracking
-
-**Concepts:** Embedded Systems | Feedback Logic | Signal Calibration
-
 # 🛠 Technical Stack
 
 ### 👨‍💻 Programming
 `Python` | `C` | `Java` 
-
 ### 🤖 Machine Learning
 `NumPy` | `Pandas` | `Scikit-Learn` | `PyTorch` | `TensorFlow` | `OpenCV`
-
 ### 🔌 Embedded & Hardware
 `Arduino` | `ESP32` | `L298N` | `MPU6050` | `IR Sensors`
-
 ### 🧰 Tools
 `Git` | `GitHub` | `Kaggle` | `Google Colab` | `Linux`
 
@@ -97,8 +74,10 @@ I enjoy working on projects where hardware meets intelligence.
 # 📈 GitHub Stats
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight)
-
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight)
+![GitHub Streak](https://streak-stats.demolab.com/?user=YOUR_USERNAME&theme=radical)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
 
 ---
 
@@ -113,7 +92,7 @@ I enjoy working on projects where hardware meets intelligence.
 
 ## 📫 Connect With Me
 
-- 💼 LinkedIn: [(Add link)](https://www.linkedin.com/in/sagnick-paul-9aa30a352/)
+- 💼 LinkedIn: [(Linkedin)](https://www.linkedin.com/in/sagnick-paul-9aa30a352/)
 - 📧 Email: sp.professional2005@gmail.com
 
 ---
