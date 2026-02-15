@@ -70,18 +70,10 @@ I enjoy working on projects where hardware meets intelligence.
 
 # 🛠 Technical Stack
 
-**👨‍💻 Programming:**  
-`Python` | `C` | `Java`
-
-**🤖 Machine Learning:**  
-`NumPy` | `Pandas` | `Scikit-Learn` | `PyTorch` | `TensorFlow` | `OpenCV`
-
-**🔌 Embedded & Hardware:**  
-`Arduino` | `ESP32` | `L298N` | `MPU6050` | `IR Sensors`
-
-**🧰 Tools:**  
-`Git` | `GitHub` | `Kaggle` | `Google Colab`
-
+**👨‍💻 Programming:** `Python` | `C` | `Java`  
+**🤖 Machine Learning:** `NumPy` | `Pandas` | `Scikit-Learn` | `PyTorch` | `TensorFlow` | `OpenCV`  
+**🔌 Embedded & Hardware:** `Arduino` | `ESP32` | `L298N` | `MPU6050` | `IR Sensors`  
+**🧰 Tools:** `Git` | `GitHub` | `Kaggle` | `Google Colab`
 
 ---
 
