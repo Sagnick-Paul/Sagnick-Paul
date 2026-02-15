@@ -77,7 +77,7 @@ I enjoy working on projects where hardware meets intelligence.
 ### 🔌 Embedded & Hardware
 `Arduino` | `ESP32` | `L298N` | `MPU6050` | `IR Sensors`
 ### 🧰 Tools
-`Git` | `GitHub` | `Kaggle` | `Google Colab` | `Linux`
+`Git` | `GitHub` | `Kaggle` | `Google Colab` 
 
 ---
 
