@@ -24,6 +24,16 @@ I enjoy working on projects where hardware meets intelligence.
 ---
 # 🚀 Featured Projects
 
+## 🚀 Jet Image Classification & Anomaly Detection (Deep Learning)
+
+- CNN-based multi-class particle jet classification
+- PCA-based dimensionality reduction comparison
+- Unsupervised CNN Autoencoder for anomaly detection
+- Reconstruction error–based anomaly scoring
+- Implemented using PyTorch
+
+**Concepts:** Deep Learning | CNN | Autoencoders | PCA | Anomaly Detection | High-Energy Physics | Representation Learning
+
 
 ## 🧠 Brain MRI Tumor Segmentation (Deep Learning)
 
