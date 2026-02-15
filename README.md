@@ -1,96 +1,71 @@
 # Hi, I'm Sagnick Paul 👋
 
 🎓 Electrical Engineering @ Jadavpur University  
-🤖 Robotics & Machine Learning Enthusiast  
-📍 Interested in AI, Autonomous Systems & Intelligent Control  
+🤖 Robotics & Machine Learning  
+📍 AI | Autonomous Systems | Intelligent Control  
 
-> "Engineering intelligence — from circuits to neural networks."
-
----
-
-## 🧠 About Me
-
-I build intelligent systems that combine electronics, control theory, and machine learning.
-
-My work spans:
-- Robotics & Autonomous Systems
-- Embedded Programming
-- Computer Vision
-- Deep Learning
-- Data-Driven Decision Systems
-
-I enjoy working on projects where hardware meets intelligence.
-
----
-# 🚀 Featured Projects
-
-## 🚀 Jet Image Classification & Anomaly Detection (Deep Learning)
-
-- CNN-based multi-class particle jet classification
-- PCA-based dimensionality reduction comparison
-- Unsupervised CNN Autoencoder for anomaly detection
-- Reconstruction error–based anomaly scoring
-- Implemented using PyTorch
-
-**Concepts:** Deep Learning | CNN | Autoencoders | PCA | Anomaly Detection | High-Energy Physics | Representation Learning
-
-
-## 🧠 Brain MRI Tumor Segmentation (Deep Learning)
-
-- CNN-based segmentation pipeline
-- Image preprocessing & augmentation
-- Dice Score & IoU evaluation metrics
-- Trained using PyTorch
-
-**Concepts:** Computer Vision | CNN | Medical Image Segmentation | Model Evaluation
+> Engineering intelligence — from circuits to neural networks.
 
 ---
 
-## 🎵 Song Cohort Analysis
+## 🧠 About
 
-- Data segmentation & user clustering
-- Behavioral pattern analysis
-- Cohort-based trend visualization
-- Insight extraction for retention strategy
+I build intelligent systems at the intersection of electronics, control theory, and machine learning — spanning robotics, embedded programming, computer vision, and data-driven decision systems.
 
+---
+
+## 🚀 Projects
+
+### 🚀 Jet Image Classification & Anomaly Detection
+- CNN-based multi-class jet classification
+- PCA comparison study
+- CNN Autoencoder for anomaly detection
+- Reconstruction-error scoring (PyTorch)  
+**Concepts:** Deep Learning | CNN | Autoencoders | PCA | Anomaly Detection | HEP
+
+---
+
+### 🧠 Brain MRI Tumor Segmentation
+- CNN segmentation pipeline
+- Preprocessing & augmentation
+- Dice & IoU evaluation (PyTorch)  
+**Concepts:** Computer Vision | CNN | Medical Imaging | Model Evaluation
+
+---
+
+### 🎵 Song Cohort Analysis
+- User clustering & segmentation
+- Behavioral trend analysis
+- Cohort visualization & retention insights  
 **Concepts:** Data Analysis | Clustering | Cohort Analysis | Visualization
 
 ---
 
-## 🤖 Self-Balancing Robot
-
-- Arduino Nano + MPU6050 + L298 Motor Driver
-- Implemented real-time PID control for stabilization
-- Operates on slopes & uneven terrain
-- Integrated Bluetooth control
-
-**Concepts:** Control Systems | PID Tuning | Sensor Fusion | Real-Time Feedback
+### 🤖 Self-Balancing Robot
+- Arduino + MPU6050 + L298N
+- Real-time PID stabilization
+- Slope & uneven terrain operation
+- Bluetooth integration  
+**Concepts:** Control Systems | PID | Sensor Fusion | Real-Time Systems
 
 ---
 
-# 🛠 Technical Stack
+## 🛠 Technical Stack
 
-**👨‍💻 Programming:** `Python` | `C` | `Java`  
-**🤖 Machine Learning:** `NumPy` | `Pandas` | `Scikit-Learn` | `PyTorch` | `TensorFlow` | `OpenCV`  
-**🔌 Embedded & Hardware:** `Arduino` | `ESP32` | `L298N` | `MPU6050` | `IR Sensors`  
-**🧰 Tools:** `Git` | `GitHub` | `Kaggle` | `Google Colab`
-
----
-
-# 🎯 Current Focus
-
-- Advanced Deep Learning (CNNs, RNNs, Transformers)
-- Control Systems & Optimization
-- End-to-End ML Deployment
-- Intelligent Robotics Systems
+**Programming:** `Python` | `C` | `Java`  
+**ML:** `NumPy` | `Pandas` | `Scikit-Learn` | `PyTorch` | `TensorFlow` | `OpenCV`  
+**Embedded:** `Arduino` | `ESP32` | `L298N` | `MPU6050` | `IR Sensors`  
+**Tools:** `Git` | `GitHub` | `Kaggle` | `Google Colab`
 
 ---
 
-## 📫 Connect With Me
-
-- 💼 LinkedIn: [(Linkedin)](https://www.linkedin.com/in/sagnick-paul-9aa30a352/)
-- 📧 Email: sp.professional2005@gmail.com
+## 🎯 Current Focus
+Deep Learning (CNNs, RNNs, Transformers) | Control & Optimization | End-to-End ML Deployment | Intelligent Robotics
 
 ---
 
-⭐ Open to internships in AI/ML, Robotics, and Intelligent Systems.
+## 📫 Connect
+💼 [LinkedIn](https://www.linkedin.com/in/sagnick-paul-9aa30a352/)  
+📧 sp.professional2005@gmail.com  
+
+⭐ Open to AI/ML, Robotics & Intelligent Systems internships.
