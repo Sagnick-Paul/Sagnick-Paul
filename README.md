@@ -1,71 +1,156 @@
-# Hi, I'm Sagnick Paul 👋
+<div align="center">
+███████╗ █████╗  ██████╗ ███╗   ██╗██╗ ██████╗██╗  ██╗
+██╔════╝██╔══██╗██╔════╝ ████╗  ██║██║██╔════╝██║ ██╔╝
+███████╗███████║██║  ███╗██╔██╗ ██║██║██║     █████╔╝ 
+╚════██║██╔══██║██║   ██║██║╚██╗██║██║██║     ██╔═██╗ 
+███████║██║  ██║╚██████╔╝██║ ╚████║██║╚██████╗██║  ██╗
+╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝ ╚═════╝╚═╝  ╚═╝
+</div>
 
-🎓 Electrical Engineering @ Jadavpur University  
-🤖 Robotics & Machine Learning  
-📍 AI | Autonomous Systems | Intelligent Control  
+<div align="center">
 
-> Engineering intelligence — from circuits to neural networks.
+### `Engineering Intelligence — from Circuits to Neural Networks.`
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sagnick-paul-9aa30a352/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sp.professional2005@gmail.com)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
 
-## 🧠 About
+![Profile Views](https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=for-the-badge&color=0d1117)
 
-I build intelligent systems at the intersection of electronics, control theory, and machine learning — spanning robotics, embedded programming, computer vision, and data-driven decision systems.
-
----
-
-## 🚀 Projects
-
-### 🚀 Jet Image Classification & Anomaly Detection
-- CNN-based multi-class jet classification
-- PCA comparison study
-- CNN Autoencoder for anomaly detection
-- Reconstruction-error scoring (PyTorch)  
-**Concepts:** Deep Learning | CNN | Autoencoders | PCA | Anomaly Detection | HEP
+</div>
 
 ---
 
-### 🧠 Brain MRI Tumor Segmentation
-- CNN segmentation pipeline
-- Preprocessing & augmentation
-- Dice & IoU evaluation (PyTorch)  
-**Concepts:** Computer Vision | CNN | Medical Imaging | Model Evaluation
+## ◈ About
+
+```python
+sagnick = {
+    "role"      : "Electrical Engineering Undergrad @ Jadavpur University",
+    "location"  : "Kolkata, West Bengal, India 🇮🇳",
+    "focus"     : ["Deep Learning", "Autonomous Systems", "Intelligent Control"],
+    "building"  : "Systems that perceive, decide, and act.",
+    "open_to"   : "AI/ML · Robotics · Intelligent Systems Internships"
+}
+```
+
+I operate at the intersection of **control theory**, **machine learning**, and **embedded hardware** — building end-to-end intelligent systems, from sensor fusion on microcontrollers to CNN pipelines in PyTorch. I care about systems that *work in the real world*, not just on benchmarks.
 
 ---
 
-### 🎵 Song Cohort Analysis
-- User clustering & segmentation
-- Behavioral trend analysis
-- Cohort visualization & retention insights  
-**Concepts:** Data Analysis | Clustering | Cohort Analysis | Visualization
+## ◈ Project Portfolio
+
+<details>
+<summary><b>🚀 Jet Image Classification & Anomaly Detection</b></summary>
+
+> *High-Energy Physics meets Deep Learning*
+
+- Designed a **CNN-based multi-class classifier** for jet image recognition
+- Conducted a comparative study: **CNN vs PCA** feature extraction performance
+- Built a **CNN Autoencoder** for unsupervised anomaly detection using reconstruction-error scoring
+- Full pipeline in **PyTorch**, with evaluation metrics and ablation studies
+
+**Stack:** `PyTorch` `CNN` `Autoencoders` `PCA` `Anomaly Detection` `HEP`
+
+</details>
 
 ---
 
-### 🤖 Self-Balancing Robot
-- Arduino + MPU6050 + L298N
-- Real-time PID stabilization
-- Slope & uneven terrain operation
-- Bluetooth integration  
-**Concepts:** Control Systems | PID | Sensor Fusion | Real-Time Systems
+<details>
+<summary><b>🧠 Brain MRI Tumor Segmentation</b></summary>
+
+> *Computer Vision for Clinical Imaging*
+
+- End-to-end **segmentation pipeline** for MRI tumor localization
+- Robust preprocessing, augmentation, and domain-specific normalization
+- Evaluated with **Dice Coefficient** and **IoU** — clinically relevant metrics
+- Modular architecture for straightforward backbone swapping
+
+**Stack:** `PyTorch` `CNN` `Medical Imaging` `Dice/IoU` `Augmentation`
+
+</details>
 
 ---
 
-## 🛠 Technical Stack
+<details>
+<summary><b>🎵 Song Cohort Analysis</b></summary>
 
-**Programming:** `Python` | `C` | `Java`  
-**ML:** `NumPy` | `Pandas` | `Scikit-Learn` | `PyTorch` | `TensorFlow` | `OpenCV`  
-**Embedded:** `Arduino` | `ESP32` | `L298N` | `MPU6050` | `IR Sensors`  
-**Tools:** `Git` | `GitHub` | `Kaggle` | `Google Colab`
+> *Behavioral Intelligence from Listening Patterns*
+
+- Applied **clustering algorithms** for user segmentation based on music behavior
+- Modeled **temporal listening trends** and retention dynamics
+- Produced cohort visualizations for actionable behavioral insights
+
+**Stack:** `Python` `Scikit-Learn` `Pandas` `Clustering` `Data Visualization`
+
+</details>
 
 ---
 
-## 🎯 Current Focus
-Deep Learning (CNNs, RNNs, Transformers) | Control & Optimization | End-to-End ML Deployment | Intelligent Robotics
+<details>
+<summary><b>🤖 Self-Balancing Robot</b></summary>
+
+> *Real-Time Control on Constrained Hardware*
+
+- Full hardware-software stack: **Arduino + MPU6050 + L298N**
+- Implemented real-time **PID stabilization** with tuned gain parameters
+- Achieved stable operation on **slopes and uneven terrain**
+- Added **Bluetooth remote control** for live parameter adjustment
+
+**Stack:** `Arduino` `C` `MPU6050` `PID Control` `Sensor Fusion` `Real-Time Systems`
+
+</details>
 
 ---
 
-## 📫 Connect
-💼 [LinkedIn](https://www.linkedin.com/in/sagnick-paul-9aa30a352/)  
-📧 sp.professional2005@gmail.com  
+## ◈ Technical Stack
 
-⭐ Open to AI/ML, Robotics & Intelligent Systems internships.
+| Domain | Tools |
+|---|---|
+| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
+| **ML / DL** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) |
+| **Data** | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) |
+| **Embedded** | ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white) `ESP32` `MPU6050` `L298N` `IR Sensors` |
+| **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white) ![Colab](https://img.shields.io/badge/Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=black) |
+
+---
+
+## ◈ GitHub Stats
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=github-dark-blue&hide_border=true&background=0d1117)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+## ◈ Currently Exploring
+---
+
+## ◈ Let's Connect
+
+I'm actively looking for **internship opportunities** in AI/ML, Robotics, and Intelligent Systems.  
+If you're building something interesting — I'd love to talk.
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/Let's_Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sagnick-paul-9aa30a352/)
+[![Email](https://img.shields.io/badge/Drop_Me_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sp.professional2005@gmail.com)
+
+</div>
+
+---
+
+<div align="center">
+
+*"The best control system is one that makes complexity invisible."*
+
+</div>
