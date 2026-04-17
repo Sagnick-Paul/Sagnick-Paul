@@ -124,3 +124,32 @@ I operate at the intersection of **control theory**, **machine learning**, and *
 ---
 
 ## ◈ Currently Exploring
+
+| Area | Topics |
+|---|---|
+| 🧠 **Deep Learning** | CNNs · RNNs · Transformers · Attention Mechanisms |
+| ⚙️ **Control Theory** | Optimal Control · MPC · Adaptive Systems |
+| 🚀 **Deployment** | ONNX · TorchScript · Edge Inference |
+| 🤖 **Robotics** | SLAM · Path Planning · Sensor Fusion |
+
+---
+
+## ◈ Let's Connect
+
+I'm actively looking for **internship opportunities** in AI/ML, Robotics, and Intelligent Systems.  
+If you're building something interesting — I'd love to talk.
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/Let's_Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sagnick-paul-9aa30a352/)
+[![Email](https://img.shields.io/badge/Drop_Me_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sp.professional2005@gmail.com)
+
+</div>
+
+---
+
+<div align="center">
+
+*"The best control system is one that makes complexity invisible."*
+
+</div>
