@@ -1,17 +1,13 @@
 <div align="center">
-SAGNICK PAUL
-</div>
-
-<div align="center">
 
 ### `Engineering Intelligence — from Circuits to Neural Networks.`
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sagnick-paul-9aa30a352/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sp.professional2005@gmail.com)
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sagnick-Paul)
 
-![Profile Views](https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=for-the-badge&color=0d1117)
+![Profile Views](https://komarev.com/ghpvc/?username=Sagnick-Paul&style=for-the-badge&color=0d1117)
 
 </div>
 
@@ -114,38 +110,17 @@ I operate at the intersection of **control theory**, **machine learning**, and *
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Sagnick-Paul&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sagnick-Paul&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=github-dark-blue&hide_border=true&background=0d1117)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Sagnick-Paul&theme=github-dark-blue&hide_border=true&background=0d1117)](https://git.io/streak-stats)
 
 </div>
 
 ---
 
 ## ◈ Currently Exploring
----
-
-## ◈ Let's Connect
-
-I'm actively looking for **internship opportunities** in AI/ML, Robotics, and Intelligent Systems.  
-If you're building something interesting — I'd love to talk.
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/Let's_Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sagnick-paul-9aa30a352/)
-[![Email](https://img.shields.io/badge/Drop_Me_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sp.professional2005@gmail.com)
-
-</div>
-
----
-
-<div align="center">
-
-*"The best control system is one that makes complexity invisible."*
-
-</div>
