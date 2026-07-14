@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#1f6feb"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)"/>
+
+  <!-- Ground line -->
+  <line x1="0" y1="170" x2="400" y2="170" stroke="#30363d" stroke-width="2"/>
+  <line x1="0" y1="172" x2="400" y2="172" stroke="#58a6ff" stroke-width="1" opacity="0.3"/>
+
+  <!-- Robot group with tilt animation -->
+  <g transform="translate(200, 145)">
+    <!-- Tilt animation -->
+    <animateTransform attributeName="transform" type="rotate" values="0 200 145; 5 200 145; 0 200 145; -5 200 145; 0 200 145" dur="4s" repeatCount="indefinite"/>
+
+    <!-- Left wheel -->
+    <g>
+      <circle cx="-25" cy="25" r="18" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+      <circle cx="-25" cy="25" r="12" fill="#0d1117"/>
+      <!-- Wheel spokes -->
+      <g stroke="#58a6ff" stroke-width="2">
+        <line x1="-25" y1="13" x2="-25" y2="37"/>
+        <line x1="-37" y1="25" x2="-13" y2="25"/>
+      </g>
+      <!-- Wheel rotation -->
+      <animateTransform attributeName="transform" type="rotate" values="0 -25 25; 360 -25 25" dur="1s" repeatCount="indefinite" additive="sum"/>
+    </g>
+
+    <!-- Right wheel -->
+    <g>
+      <circle cx="25" cy="25" r="18" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+      <circle cx="25" cy="25" r="12" fill="#0d1117"/>
+      <!-- Wheel spokes -->
+      <g stroke="#58a6ff" stroke-width="2">
+        <line x1="25" y1="13" x2="25" y2="37"/>
+        <line x1="13" y1="25" x2="37" y2="25"/>
+      </g>
+      <!-- Wheel rotation -->
+      <animateTransform attributeName="transform" type="rotate" values="0 25 25; 360 25 25" dur="1s" repeatCount="indefinite" additive="sum"/>
+    </g>
+
+    <!-- Robot body -->
+    <rect x="-20" y="-45" width="40" height="60" rx="5" fill="url(#bodyGrad)"/>
+
+    <!-- Body details -->
+    <rect x="-15" y="-40" width="30" height="8" rx="2" fill="#0d1117"/>
+    <rect x="-15" y="-28" width="30" height="8" rx="2" fill="#0d1117"/>
+
+    <!-- IMU sensor -->
+    <g transform="translate(0, -15)">
+      <rect x="-8" y="-8" width="16" height="16" rx="2" fill="#161b22" stroke="#79c0ff" stroke-width="1"/>
+      <circle cx="0" cy="0" r="4" fill="#58a6ff" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="0.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Head -->
+    <rect x="-15" y="-65" width="30" height="20" rx="4" fill="#1f6feb"/>
+    <!-- Eyes -->
+    <circle cx="-6" cy="-55" r="4" fill="#58a6ff" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="6" cy="-55" r="4" fill="#58a6ff" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+  </g>
+
+  <!-- PID Signal visualization -->
+  <g transform="translate(320, 40)">
+    <!-- Panel background -->
+    <rect x="0" y="0" width="70" height="120" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+
+    <text x="35" y="15" text-anchor="middle" fill="#8b949e" font-size="8" font-family="monospace">PID</text>
+
+    <!-- P term -->
+    <text x="8" y="30" fill="#58a6ff" font-size="7" font-family="monospace">P</text>
+    <rect x="8" y="35" width="54" height="6" rx="1" fill="#0d1117"/>
+    <rect x="8" y="35" width="35" height="6" rx="1" fill="#58a6ff">
+      <animate attributeName="width" values="20;50;20" dur="2s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- I term -->
+    <text x="8" y="55" fill="#79c0ff" font-size="7" font-family="monospace">I</text>
+    <rect x="8" y="60" width="54" height="6" rx="1" fill="#0d1117"/>
+    <rect x="8" y="60" width="25" height="6" rx="1" fill="#79c0ff">
+      <animate attributeName="width" values="10;40;10" dur="2.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- D term -->
+    <text x="8" y="80" fill="#1f6feb" font-size="7" font-family="monospace">D</text>
+    <rect x="8" y="85" width="54" height="6" rx="1" fill="#0d1117"/>
+    <rect x="8" y="85" width="40" height="6" rx="1" fill="#1f6feb">
+      <animate attributeName="width" values="15;45;15" dur="1.8s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Signal wave -->
+    <g transform="translate(10, 100)">
+      <path d="M0,10 Q5,0 10,10 T20,10 T30,10 T40,10 T50,10" fill="none" stroke="#58a6ff" stroke-width="1.5">
+        <animate attributeName="d" values="M0,10 Q5,0 10,10 T20,10 T30,10 T40,10 T50,10;M0,10 Q5,20 10,10 T20,10 T30,10 T40,10 T50,10;M0,10 Q5,0 10,10 T20,10 T30,10 T40,10 T50,10" dur="0.5s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+
+  <!-- IMU Display -->
+  <g transform="translate(10, 40)">
+    <rect x="0" y="0" width="70" height="50" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="35" y="12" text-anchor="middle" fill="#8b949e" font-size="8" font-family="monospace">IMU</text>
+
+    <!-- Pitch indicator -->
+    <g transform="translate(35, 30)">
+      <line x1="0" y1="-15" x2="0" y2="15" stroke="#30363d" stroke-width="1"/>
+      <line x1="-12" y1="0" x2="12" y2="0" stroke="#30363d" stroke-width="1"/>
+      <!-- Angle needle -->
+      <line x1="0" y1="0" x2="0" y2="-12" stroke="#58a6ff" stroke-width="2" filter="url(#glow)">
+        <animateTransform attributeName="transform" type="rotate" values="-15 0 0; 15 0 0; -15 0 0" dur="4s" repeatCount="indefinite"/>
+      </line>
+      <circle cx="0" cy="0" r="3" fill="#58a6ff"/>
+    </g>
+  </g>
+
+  <!-- Direction arrows -->
+  <g fill="#58a6ff" opacity="0.6">
+    <path d="M50,185 L55,175 L60,185 Z">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="1s" repeatCount="indefinite"/>
+    </path>
+    <path d="M150,185 L155,175 L160,185 Z">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="1s" repeatCount="indefinite" begin="0.3s"/>
+    </path>
+    <path d="M250,185 L255,175 L260,185 Z">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="1s" repeatCount="indefinite" begin="0.6s"/>
+    </path>
+    <path d="M350,185 L355,175 L360,185 Z">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="1s" repeatCount="indefinite" begin="0.9s"/>
+    </path>
+  </g>
+</svg>

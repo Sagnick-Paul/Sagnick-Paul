@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#79c0ff"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)"/>
+
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" fill="#58a6ff" font-size="16" font-family="monospace" font-weight="bold">CURRENTLY EXPLORING</text>
+
+  <!-- Grid lines -->
+  <g stroke="#30363d" stroke-width="0.5" opacity="0.2">
+    <line x1="50" y1="50" x2="750" y2="50"/>
+    <line x1="50" y1="100" x2="750" y2="100"/>
+    <line x1="50" y1="150" x2="750" y2="150"/>
+    <line x1="50" y1="200" x2="750" y2="200"/>
+    <line x1="50" y1="250" x2="750" y2="250"/>
+  </g>
+
+  <!-- Deep Learning Card -->
+  <g transform="translate(50, 60)">
+    <!-- Card background -->
+    <rect x="0" y="0" width="160" height="100" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+
+    <!-- Icon area -->
+    <circle cx="25" cy="25" r="15" fill="#1f6feb" opacity="0.3"/>
+    <g fill="#58a6ff">
+      <circle cx="20" cy="22" r="4"/>
+      <circle cx="30" cy="22" r="4"/>
+      <circle cx="25" cy="30" r="3"/>
+      <line x1="20" y1="22" x2="25" y2="30" stroke="#58a6ff" stroke-width="1.5"/>
+      <line x1="30" y1="22" x2="25" y2="30" stroke="#58a6ff" stroke-width="1.5"/>
+    </g>
+
+    <!-- Title -->
+    <text x="50" y="20" fill="#c9d1d9" font-size="11" font-family="monospace" font-weight="bold">Deep Learning</text>
+
+    <!-- Topics -->
+    <text x="10" y="50" fill="#8b949e" font-size="8" font-family="monospace">Transformers</text>
+    <text x="90" y="50" fill="#8b949e" font-size="8" font-family="monospace">CNNs</text>
+    <text x="10" y="65" fill="#8b949e" font-size="8" font-family="monospace">RNNs</text>
+    <text x="90" y="65" fill="#8b949e" font-size="8" font-family="monospace">Attention</text>
+
+    <!-- Progress bar -->
+    <rect x="10" y="80" width="140" height="8" rx="2" fill="#0d1117"/>
+    <rect x="10" y="80" width="110" height="8" rx="2" fill="url(#barGrad)" filter="url(#glow)">
+      <animate attributeName="width" values="80;120;80" dur="3s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Robotics Card -->
+  <g transform="translate(230, 60)">
+    <rect x="0" y="0" width="160" height="100" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+
+    <!-- Gear icon -->
+    <g fill="#79c0ff">
+      <path d="M25,10 L28,15 L33,15 L30,18 L31,23 L26,21 L21,23 L22,18 L19,15 L24,15 Z">
+        <animateTransform attributeName="transform" type="rotate" values="0 25 18; 360 25 18" dur="8s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <text x="50" y="20" fill="#c9d1d9" font-size="11" font-family="monospace" font-weight="bold">Robotics</text>
+
+    <text x="10" y="50" fill="#8b949e" font-size="8" font-family="monospace">SLAM</text>
+    <text x="90" y="50" fill="#8b949e" font-size="8" font-family="monospace">Path Planning</text>
+    <text x="10" y="65" fill="#8b949e" font-size="8" font-family="monospace">Sensor Fusion</text>
+
+    <rect x="10" y="80" width="140" height="8" rx="2" fill="#0d1117"/>
+    <rect x="10" y="80" width="95" height="8" rx="2" fill="url(#barGrad)" filter="url(#glow)">
+      <animate attributeName="width" values="70;100;70" dur="2.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Edge AI Card -->
+  <g transform="translate(410, 60)">
+    <rect x="0" y="0" width="160" height="100" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+
+    <!-- Chip icon -->
+    <g stroke="#58a6ff" stroke-width="1.5" fill="none">
+      <rect x="15" y="15" width="20" height="20" rx="2"/>
+      <line x1="25" y1="15" x2="25" y2="10"/>
+      <line x1="35" y1="15" x2="35" y2="10"/>
+      <line x1="25" y1="35" x2="25" y2="40"/>
+      <line x1="35" y1="35" x2="35" y2="40"/>
+      <line x1="15" y1="25" x2="10" y2="25"/>
+      <line x1="35" y1="25" x2="40" y2="25"/>
+    </g>
+
+    <text x="50" y="20" fill="#c9d1d9" font-size="11" font-family="monospace" font-weight="bold">Edge AI</text>
+
+    <text x="10" y="50" fill="#8b949e" font-size="8" font-family="monospace">ONNX</text>
+    <text x="90" y="50" fill="#8b949e" font-size="8" font-family="monospace">TorchScript</text>
+    <text x="10" y="65" fill="#8b949e" font-size="8" font-family="monospace">Edge Inference</text>
+
+    <rect x="10" y="80" width="140" height="8" rx="2" fill="#0d1117"/>
+    <rect x="10" y="80" width="85" height="8" rx="2" fill="url(#barGrad)" filter="url(#glow)">
+      <animate attributeName="width" values="60;95;60" dur="2.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Control Theory Card -->
+  <g transform="translate(590, 60)">
+    <rect x="0" y="0" width="160" height="100" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+
+    <!-- Wave icon -->
+    <g stroke="#58a6ff" stroke-width="2" fill="none">
+      <path d="M15,25 Q20,15 25,25 T35,25 T45,25">
+        <animate attributeName="d" values="M15,25 Q20,15 25,25 T35,25 T45,25;M15,25 Q20,35 25,25 T35,25 T45,25;M15,25 Q20,15 25,25 T35,25 T45,25" dur="2s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <text x="50" y="20" fill="#c9d1d9" font-size="11" font-family="monospace" font-weight="bold">Control Theory</text>
+
+    <text x="10" y="50" fill="#8b949e" font-size="8" font-family="monospace">PID</text>
+    <text x="90" y="50" fill="#8b949e" font-size="8" font-family="monospace">MPC</text>
+    <text x="10" y="65" fill="#8b949e" font-size="8" font-family="monospace">Optimal Control</text>
+
+    <rect x="10" y="80" width="140" height="8" rx="2" fill="#0d1117"/>
+    <rect x="10" y="80" width="100" height="8" rx="2" fill="url(#barGrad)" filter="url(#glow)">
+      <animate attributeName="width" values="75;110;75" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Computer Vision Card -->
+  <g transform="translate(140, 180)">
+    <rect x="0" y="0" width="160" height="100" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+
+    <!-- Eye icon -->
+    <g stroke="#79c0ff" stroke-width="1.5" fill="none">
+      <path d="M10,20 Q25,5 40,20 Q25,35 10,20 Z"/>
+      <circle cx="25" cy="20" r="6" fill="#58a6ff"/>
+    </g>
+
+    <text x="50" y="20" fill="#c9d1d9" font-size="11" font-family="monospace" font-weight="bold">Computer Vision</text>
+
+    <text x="10" y="50" fill="#8b949e" font-size="8" font-family="monospace">Segmentation</text>
+    <text x="90" y="50" fill="#8b949e" font-size="8" font-family="monospace">Object Detection</text>
+    <text x="10" y="65" fill="#8b949e" font-size="8" font-family="monospace">Medical Imaging</text>
+
+    <rect x="10" y="80" width="140" height="8" rx="2" fill="#0d1117"/>
+    <rect x="10" y="80" width="120" height="8" rx="2" fill="url(#barGrad)" filter="url(#glow)">
+      <animate attributeName="width" values="90;130;90" dur="2.7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Multi-Agent Systems Card -->
+  <g transform="translate(320, 180)">
+    <rect x="0" y="0" width="160" height="100" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+
+    <!-- Network icon -->
+    <g fill="#58a6ff">
+      <circle cx="15" cy="20" r="4" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="35" cy="20" r="4" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+      </circle>
+      <circle cx="25" cy="32" r="4" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="1s"/>
+      </circle>
+      <line x1="15" y1="20" x2="35" y2="20" stroke="#30363d" stroke-width="1"/>
+      <line x1="15" y1="20" x2="25" y2="32" stroke="#30363d" stroke-width="1"/>
+      <line x1="35" y1="20" x2="25" y2="32" stroke="#30363d" stroke-width="1"/>
+    </g>
+
+    <text x="50" y="20" fill="#c9d1d9" font-size="11" font-family="monospace" font-weight="bold">Multi-Agent</text>
+
+    <text x="10" y="50" fill="#8b949e" font-size="8" font-family="monospace">LangGraph</text>
+    <text x="90" y="50" fill="#8b949e" font-size="8" font-family="monospace">Agentic RAG</text>
+    <text x="10" y="65" fill="#8b949e" font-size="8" font-family="monospace">Tool Use</text>
+
+    <rect x="10" y="80" width="140" height="8" rx="2" fill="#0d1117"/>
+    <rect x="10" y="80" width="75" height="8" rx="2" fill="url(#barGrad)" filter="url(#glow)">
+      <animate attributeName="width" values="50;85;50" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Status indicators -->
+  <g transform="translate(680, 250)">
+    <text x="0" y="0" fill="#8b949e" font-size="8" font-family="monospace">STATUS</text>
+    <g transform="translate(0, 10)">
+      <circle cx="5" cy="5" r="4" fill="#6bcb77">
+        <animate attributeName="opacity" values="1;0.5;1" dur="1s" repeatCount="indefinite"/>
+      </circle>
+      <text x="15" y="8" fill="#6bcb77" font-size="8" font-family="monospace">Active</text>
+    </g>
+  </g>
+
+  <!-- Decorative elements -->
+  <g fill="#58a6ff" opacity="0.2">
+    <circle cx="40" cy="40" r="1">
+      <animate attributeName="opacity" values="0;0.4;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="760" cy="260" r="1.5">
+      <animate attributeName="opacity" values="0;0.4;0" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+    </circle>
+  </g>
+</svg>

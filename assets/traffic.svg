@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="roadGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+
+    <linearGradient id="carGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#1f6feb"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="100%" height="100%" fill="url(#skyGrad)"/>
+
+  <!-- Road -->
+  <rect x="0" y="140" width="400" height="60" fill="url(#roadGrad)"/>
+
+  <!-- Lane markings -->
+  <g fill="#8b949e">
+    <rect x="0" y="168" width="30" height="4" rx="2"/>
+    <rect x="50" y="168" width="30" height="4" rx="2">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="100" y="168" width="30" height="4" rx="2">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite" begin="0.2s"/>
+    </rect>
+    <rect x="150" y="168" width="30" height="4" rx="2">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite" begin="0.4s"/>
+    </rect>
+    <rect x="200" y="168" width="30" height="4" rx="2">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite" begin="0.6s"/>
+    </rect>
+    <rect x="250" y="168" width="30" height="4" rx="2">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite" begin="0.8s"/>
+    </rect>
+    <rect x="300" y="168" width="30" height="4" rx="2">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite" begin="1s"/>
+    </rect>
+    <rect x="350" y="168" width="30" height="4" rx="2">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite" begin="1.2s"/>
+    </rect>
+  </g>
+
+  <!-- Traffic signal pole -->
+  <g x="320" y="60">
+    <rect x="0" y="0" width="8" height="80" fill="#30363d"/>
+    <!-- Traffic light housing -->
+    <rect x="-10" y="0" width="28" height="70" rx="4" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <!-- Red light -->
+    <circle cx="4" cy="15" r="8" fill="#ff6b6b" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Yellow light -->
+    <circle cx="4" cy="35" r="8" fill="#ffd93d" opacity="0.3">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite" begin="2s"/>
+    </circle>
+    <!-- Green light -->
+    <circle cx="4" cy="55" r="8" fill="#6bcb77" opacity="0.3"/>
+  </g>
+
+  <!-- Car body -->
+  <g transform="translate(50, 115)">
+    <!-- Car moving animation -->
+    <animateTransform attributeName="transform" type="translate" values="50,115; 350,115; 50,115" dur="8s" repeatCount="indefinite"/>
+
+    <!-- Car body -->
+    <rect x="0" y="0" width="70" height="25" rx="5" fill="url(#carGrad)"/>
+    <!-- Car roof -->
+    <rect x="15" y="-15" width="40" height="15" rx="3" fill="#1f6feb"/>
+    <!-- Windows -->
+    <rect x="18" y="-12" width="15" height="10" rx="2" fill="#0d1117"/>
+    <rect x="37" y="-12" width="15" height="10" rx="2" fill="#0d1117"/>
+    <!-- Headlights -->
+    <rect x="65" y="5" width="4" height="8" rx="1" fill="#fff" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.5;1" dur="0.5s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Taillights -->
+    <rect x="1" y="5" width="3" height="8" rx="1" fill="#ff4444" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="0.5s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Wheels -->
+    <circle cx="15" cy="25" r="8" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <circle cx="15" cy="25" r="3" fill="#58a6ff"/>
+    <circle cx="55" cy="25" r="8" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <circle cx="55" cy="25" r="3" fill="#58a6ff">
+      <!-- Wheel rotation -->
+      <animateTransform attributeName="transform" type="rotate" values="0 55 25; 360 55 25" dur="1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Distant car -->
+  <g transform="translate(280, 120)" opacity="0.5">
+    <animateTransform attributeName="transform" type="translate" values="280,120; 50,120; 280,120" dur="12s" repeatCount="indefinite"/>
+    <rect x="0" y="0" width="40" height="18" rx="4" fill="#79c0ff"/>
+    <circle cx="10" cy="18" r="5" fill="#161b22"/>
+    <circle cx="30" cy="18" r="5" fill="#161b22"/>
+  </g>
+
+  <!-- Road edge lines -->
+  <line x1="0" y1="140" x2="400" y2="140" stroke="#58a6ff" stroke-width="2"/>
+  <line x1="0" y1="200" x2="400" y2="200" stroke="#58a6ff" stroke-width="2"/>
+
+  <!-- Stars/sparkles in sky -->
+  <g fill="#58a6ff" opacity="0.5">
+    <circle cx="50" cy="30" r="1">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="50" r="1.5">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+    <circle cx="250" cy="25" r="1">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite" begin="2s"/>
+    </circle>
+    <circle cx="350" cy="45" r="1.5">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+  </g>
+</svg>

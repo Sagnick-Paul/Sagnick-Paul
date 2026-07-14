@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#58a6ff" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)"/>
+
+  <!-- Section title -->
+  <text x="400" y="30" text-anchor="middle" fill="#58a6ff" font-size="16" font-family="monospace" font-weight="bold">TECHNOLOGY STACK</text>
+
+  <!-- Connection lines -->
+  <g stroke="#30363d" stroke-width="1" fill="none" opacity="0.4">
+    <!-- Languages to ML -->
+    <path d="M160,120 C200,120 200,150 240,150" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" values="0;8" dur="1s" repeatCount="indefinite"/>
+    </path>
+    <!-- ML to Embedded -->
+    <path d="M560,120 C560,150 560,180 520,210" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" values="0;8" dur="1s" repeatCount="indefinite" begin="0.5s"/>
+    </path>
+    <!-- Embedded to Deployment -->
+    <path d="M280,300 C320,300 320,270 360,270" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" values="0;8" dur="1s" repeatCount="indefinite" begin="1s"/>
+    </path>
+    <!-- Deployment to Languages -->
+    <path d="M360,270 C320,270 320,240 280,210" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" values="0;8" dur="1s" repeatCount="indefinite" begin="1.5s"/>
+    </path>
+  </g>
+
+  <!-- Languages Section -->
+  <g transform="translate(80, 70)">
+    <rect x="0" y="0" width="160" height="100" rx="6" fill="url(#cardGrad)" stroke="#30363d" stroke-width="1" filter="url(#cardShadow)"/>
+    <text x="80" y="20" text-anchor="middle" fill="#58a6ff" font-size="12" font-family="monospace" font-weight="bold">LANGUAGES</text>
+
+    <!-- Python -->
+    <g>
+      <rect x="15" y="30" width="60" height="20" rx="3" fill="#161b22" stroke="#3776AB" stroke-width="1"/>
+      <text x="45" y="43" text-anchor="middle" fill="#3776AB" font-size="9" font-family="monospace">Python</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2; 0,0" dur="3s" repeatCount="indefinite" additive="sum"/>
+    </g>
+    <!-- C -->
+    <g>
+      <rect x="85" y="30" width="60" height="20" rx="3" fill="#161b22" stroke="#A8B9CC" stroke-width="1"/>
+      <text x="115" y="43" text-anchor="middle" fill="#A8B9CC" font-size="9" font-family="monospace">C</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2; 0,0" dur="3s" repeatCount="indefinite" begin="0.5s" additive="sum"/>
+    </g>
+    <!-- Java -->
+    <g>
+      <rect x="50" y="58" width="60" height="20" rx="3" fill="#161b22" stroke="#ED8B00" stroke-width="1"/>
+      <text x="80" y="71" text-anchor="middle" fill="#ED8B00" font-size="9" font-family="monospace">Java</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2; 0,0" dur="3s" repeatCount="indefinite" begin="1s" additive="sum"/>
+    </g>
+  </g>
+
+  <!-- AI / ML Section -->
+  <g transform="translate(520, 70)">
+    <rect x="0" y="0" width="200" height="100" rx="6" fill="url(#cardGrad)" stroke="#30363d" stroke-width="1" filter="url(#cardShadow)"/>
+    <text x="100" y="20" text-anchor="middle" fill="#58a6ff" font-size="12" font-family="monospace" font-weight="bold">AI / ML</text>
+
+    <!-- PyTorch -->
+    <g>
+      <rect x="15" y="30" width="55" height="20" rx="3" fill="#161b22" stroke="#EE4C2C" stroke-width="1"/>
+      <text x="42" y="43" text-anchor="middle" fill="#EE4C2C" font-size="8" font-family="monospace">PyTorch</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2; 0,0" dur="3s" repeatCount="indefinite" begin="0.3s" additive="sum"/>
+    </g>
+    <!-- TensorFlow -->
+    <g>
+      <rect x="78" y="30" width="55" height="20" rx="3" fill="#161b22" stroke="#FF6F00" stroke-width="1"/>
+      <text x="105" y="43" text-anchor="middle" fill="#FF6F00" font-size="8" font-family="monospace">TensorFlow</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2; 0,0" dur="3s" repeatCount="indefinite" begin="0.8s" additive="sum"/>
+    </g>
+    <!-- OpenCV -->
+    <g>
+      <rect x="140" y="30" width="45" height="20" rx="3" fill="#161b22" stroke="#5C3EE8" stroke-width="1"/>
+      <text x="162" y="43" text-anchor="middle" fill="#5C3EE8" font-size="8" font-family="monospace">OpenCV</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2; 0,0" dur="3s" repeatCount="indefinite" begin="1.3s" additive="sum"/>
+    </g>
+    <!-- Scikit -->
+    <g>
+      <rect x="40" y="58" width="60" height="20" rx="3" fill="#161b22" stroke="#F7931E" stroke-width="1"/>
+      <text x="70" y="71" text-anchor="middle" fill="#F7931E" font-size="8" font-family="monospace">Scikit-Learn</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2; 0,0" dur="3s" repeatCount="indefinite" begin="1.8s" additive="sum"/>
+    </g>
+    <!-- NumPy -->
+    <rect x="110" y="58" width="45" height="20" rx="3" fill="#161b22" stroke="#013243" stroke-width="1"/>
+    <text x="132" y="71" text-anchor="middle" fill="#013243" font-size="8" font-family="monospace">NumPy</text>
+    <!-- Pandas -->
+    <rect x="160" y="58" width="30" height="20" rx="3" fill="#161b22" stroke="#150458" stroke-width="1"/>
+    <text x="175" y="71" text-anchor="middle" fill="#150458" font-size="8" font-family="monospace">Pandas</text>
+  </g>
+
+  <!-- Embedded Section -->
+  <g transform="translate(80, 240)">
+    <rect x="0" y="0" width="180" height="110" rx="6" fill="url(#cardGrad)" stroke="#30363d" stroke-width="1" filter="url(#cardShadow)"/>
+    <text x="90" y="20" text-anchor="middle" fill="#58a6ff" font-size="12" font-family="monospace" font-weight="bold">EMBEDDED</text>
+
+    <!-- Arduino -->
+    <g>
+      <rect x="10" y="30" width="70" height="20" rx="3" fill="#161b22" stroke="#00979D" stroke-width="1"/>
+      <text x="45" y="43" text-anchor="middle" fill="#00979D" font-size="9" font-family="monospace">Arduino</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2; 0,0" dur="3s" repeatCount="indefinite" begin="0.2s" additive="sum"/>
+    </g>
+    <!-- ESP32 -->
+    <g>
+      <rect x="90" y="30" width="70" height="20" rx="3" fill="#161b22" stroke="#E7352C" stroke-width="1"/>
+      <text x="125" y="43" text-anchor="middle" fill="#E7352C" font-size="9" font-family="monospace">ESP32</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2; 0,0" dur="3s" repeatCount="indefinite" begin="0.7s" additive="sum"/>
+    </g>
+    <!-- MPU6050 -->
+    <g>
+      <rect x="10" y="58" width="70" height="20" rx="3" fill="#161b22" stroke="#79c0ff" stroke-width="1"/>
+      <text x="45" y="71" text-anchor="middle" fill="#79c0ff" font-size="9" font-family="monospace">MPU6050</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2; 0,0" dur="3s" repeatCount="indefinite" begin="1.2s" additive="sum"/>
+    </g>
+    <!-- EasyEDA -->
+    <g>
+      <rect x="90" y="58" width="70" height="20" rx="3" fill="#161b22" stroke="#58a6ff" stroke-width="1"/>
+      <text x="125" y="71" text-anchor="middle" fill="#58a6ff" font-size="9" font-family="monospace">EasyEDA</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2; 0,0" dur="3s" repeatCount="indefinite" begin="1.7s" additive="sum"/>
+    </g>
+    <!-- KiCad -->
+    <rect x="50" y="86" width="70" height="20" rx="3" fill="#161b22" stroke="#1f6feb" stroke-width="1"/>
+    <text x="85" y="99" text-anchor="middle" fill="#1f6feb" font-size="9" font-family="monospace">KiCad</text>
+  </g>
+
+  <!-- Deployment Section -->
+  <g transform="translate(520, 240)">
+    <rect x="0" y="0" width="200" height="110" rx="6" fill="url(#cardGrad)" stroke="#30363d" stroke-width="1" filter="url(#cardShadow)"/>
+    <text x="100" y="20" text-anchor="middle" fill="#58a6ff" font-size="12" font-family="monospace" font-weight="bold">DEPLOYMENT</text>
+
+    <!-- Docker -->
+    <g>
+      <rect x="15" y="30" width="55" height="20" rx="3" fill="#161b22" stroke="#2496ED" stroke-width="1"/>
+      <text x="42" y="43" text-anchor="middle" fill="#2496ED" font-size="9" font-family="monospace">Docker</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2; 0,0" dur="3s" repeatCount="indefinite" begin="0.4s" additive="sum"/>
+    </g>
+    <!-- Git -->
+    <g>
+      <rect x="78" y="30" width="55" height="20" rx="3" fill="#161b22" stroke="#F05032" stroke-width="1"/>
+      <text x="105" y="43" text-anchor="middle" fill="#F05032" font-size="9" font-family="monospace">Git</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2; 0,0" dur="3s" repeatCount="indefinite" begin="0.9s" additive="sum"/>
+    </g>
+    <!-- GitHub -->
+    <g>
+      <rect x="140" y="30" width="50" height="20" rx="3" fill="#161b22" stroke="#181717" stroke-width="1"/>
+      <text x="165" y="43" text-anchor="middle" fill="#c9d1d9" font-size="9" font-family="monospace">GitHub</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2; 0,0" dur="3s" repeatCount="indefinite" begin="1.4s" additive="sum"/>
+    </g>
+    <!-- Linux -->
+    <g>
+      <rect x="15" y="58" width="55" height="20" rx="3" fill="#161b22" stroke="#FCC624" stroke-width="1"/>
+      <text x="42" y="71" text-anchor="middle" fill="#FCC624" font-size="9" font-family="monospace">Linux</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2; 0,0" dur="3s" repeatCount="indefinite" begin="1.9s" additive="sum"/>
+    </g>
+    <!-- Render -->
+    <g>
+      <rect x="78" y="58" width="55" height="20" rx="3" fill="#161b22" stroke="#46E3B7" stroke-width="1"/>
+      <text x="105" y="71" text-anchor="middle" fill="#46E3B7" font-size="9" font-family="monospace">Render</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2; 0,0" dur="3s" repeatCount="indefinite" begin="2.4s" additive="sum"/>
+    </g>
+    <!-- Vercel -->
+    <rect x="140" y="58" width="50" height="20" rx="3" fill="#161b22" stroke="#ffffff" stroke-width="1"/>
+    <text x="165" y="71" text-anchor="middle" fill="#c9d1d9" font-size="9" font-family="monospace">Vercel</text>
+
+    <!-- AWS -->
+    <rect x="55" y="86" width="55" height="20" rx="3" fill="#161b22" stroke="#FF9900" stroke-width="1"/>
+    <text x="82" y="99" text-anchor="middle" fill="#FF9900" font-size="9" font-family="monospace">AWS</text>
+    <rect x="118" y="86" width="55" height="20" rx="3" fill="#161b22" stroke="#4285F4" stroke-width="1"/>
+    <text x="145" y="99" text-anchor="middle" fill="#4285F4" font-size="9" font-family="monospace">GCP</text>
+  </g>
+
+  <!-- Floating particles -->
+  <g fill="#58a6ff" opacity="0.3">
+    <circle cx="400" cy="180" r="1.5">
+      <animate attributeName="cy" values="180;175;180" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="350" r="1">
+      <animate attributeName="cy" values="350;355;350" dur="5s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="5s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+    <circle cx="500" cy="360" r="1">
+      <animate attributeName="cy" values="360;355;360" dur="4.5s" repeatCount="indefinite" begin="2s"/>
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4.5s" repeatCount="indefinite" begin="2s"/>
+    </circle>
+  </g>
+</svg>
