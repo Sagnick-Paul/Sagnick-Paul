@@ -1,570 +1,155 @@
-# GitHub Profile README Redesign — Premium Interactive Engineering Portfolio
+<div align="center">
 
-## Objective
+### `Engineering Intelligence — from Circuits to Neural Networks.`
 
-Completely redesign my GitHub profile README into a premium, visually striking engineering portfolio that communicates my expertise in Electrical Engineering, Artificial Intelligence, Machine Learning, Robotics, Computer Vision, and Intelligent Systems.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sagnick-paul-9aa30a352/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sp.professional2005@gmail.com)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sagnick-Paul)
 
-The final result should feel comparable to the best GitHub profile READMEs on the platform—not a typical markdown document, but a polished engineering showcase with custom SVG artwork, subtle animations, and a cohesive visual identity.
+![Profile Views](https://komarev.com/ghpvc/?username=Sagnick-Paul&style=for-the-badge&color=0d1117)
 
-The entire design must remain **100% GitHub-compatible**, requiring no JavaScript or unsupported CSS.
-
----
-
-# Overall Design Language
-
-Create a futuristic engineering aesthetic inspired by:
-
-* GitHub Dark Theme
-* Dark Academia
-* Premium Apple-style minimalism
-* High-end engineering dashboards
-* Circuit board layouts
-* Cyber-physical systems
-* Research laboratories
-
-The page should feel like an engineering control center.
+</div>
 
 ---
 
-# Color Palette
+## ◈ About
 
-Background
-
-```
-#0d1117
+```python
+sagnick = {
+    "role"      : "Electrical Engineering Undergrad @ Jadavpur University",
+    "location"  : "Kolkata, West Bengal, India 🇮🇳",
+    "focus"     : ["Deep Learning", "Autonomous Systems", "Intelligent Control"],
+    "building"  : "Systems that perceive, decide, and act.",
+    "open_to"   : "AI/ML · Robotics · Intelligent Systems Internships"
+}
 ```
 
-Cards
-
-```
-#161b22
-```
-
-Borders
-
-```
-#30363d
-```
-
-Primary Accent
-
-```
-#58a6ff
-```
-
-Secondary Accent
-
-```
-#79c0ff
-```
-
-Highlights
-
-```
-#1f6feb
-```
-
-Text
-
-```
-#c9d1d9
-```
-
-Muted
-
-```
-#8b949e
-```
-
-Use gradients sparingly.
-
-Maintain a professional appearance.
+I operate at the intersection of **control theory**, **machine learning**, and **embedded hardware** — building end-to-end intelligent systems, from sensor fusion on microcontrollers to CNN pipelines in PyTorch. I care about systems that *work in the real world*, not just on benchmarks.
 
 ---
 
-# Technical Constraints
+## ◈ Project Portfolio
 
-GitHub strips CSS and JavaScript.
+<details>
+<summary><b>🚀 Jet Image Classification & Anomaly Detection</b></summary>
 
-Therefore:
+> *High-Energy Physics meets Deep Learning*
 
-* DO NOT use JavaScript.
-* DO NOT rely on CSS animations.
-* DO NOT use unsupported HTML.
-* DO NOT use external animation libraries.
+- Designed a **CNN-based multi-class classifier** for jet image recognition
+- Conducted a comparative study: **CNN vs PCA** feature extraction performance
+- Built a **CNN Autoencoder** for unsupervised anomaly detection using reconstruction-error scoring
+- Full pipeline in **PyTorch**, with evaluation metrics and ablation studies
 
-Instead:
+**Stack:** `PyTorch` `CNN` `Autoencoders` `PCA` `Anomaly Detection` `HEP`
 
-* Build custom animated SVGs using SMIL (`<animate>`, `<animateTransform>`, `<animateMotion>`, `<animateColor>`).
-* Embed SVGs directly from the repository.
-* Keep animations lightweight.
-* Optimize all SVGs for GitHub rendering.
+</details>
 
 ---
 
-# Repository Structure
+<details>
+<summary><b>🧠 Brain MRI Tumor Segmentation</b></summary>
 
-```
-README.md
+> *Computer Vision for Clinical Imaging*
 
-assets/
-│
-├── hero-circuit.svg
-├── traffic.svg
-├── multi-agent.svg
-├── mri.svg
-├── robot.svg
-├── tech-stack.svg
-├── exploring.svg
-├── footer-network.svg
-```
+- End-to-end **segmentation pipeline** for MRI tumor localization
+- Robust preprocessing, augmentation, and domain-specific normalization
+- Evaluated with **Dice Coefficient** and **IoU** — clinically relevant metrics
+- Modular architecture for straightforward backbone swapping
 
-The README should reference these assets.
+**Stack:** `PyTorch` `CNN` `Medical Imaging` `Dice/IoU` `Augmentation`
+
+</details>
 
 ---
 
-# Hero Section
+<details>
+<summary><b>🎵 Song Cohort Analysis</b></summary>
 
-Create a large animated hero.
+> *Behavioral Intelligence from Listening Patterns*
 
-Visual:
+- Applied **clustering algorithms** for user segmentation based on music behavior
+- Modeled **temporal listening trends** and retention dynamics
+- Produced cohort visualizations for actionable behavioral insights
 
-Animated electronic circuit spanning the width.
+**Stack:** `Python` `Scikit-Learn` `Pandas` `Clustering` `Data Visualization`
 
-Requirements:
-
-* flowing electrical pulses
-* glowing nodes
-* moving signals
-* subtle animated gradients
-* modern engineering appearance
-
-Center title:
-
-Engineering Intelligence
-
-Subtitle:
-
-From Circuits → Control → Neural Networks
-
-Include:
-
-* LinkedIn
-* GitHub
-* Email
-* Kaggle
-
-styled consistently.
+</details>
 
 ---
 
-# About Section
+<details>
+<summary><b>🤖 Self-Balancing Robot</b></summary>
 
-Modern engineering introduction.
+> *Real-Time Control on Constrained Hardware*
 
-Avoid code blocks.
+- Full hardware-software stack: **Arduino + MPU6050 + L298N**
+- Implemented real-time **PID stabilization** with tuned gain parameters
+- Achieved stable operation on **slopes and uneven terrain**
+- Added **Bluetooth remote control** for live parameter adjustment
 
-Instead create a premium information card.
+**Stack:** `Arduino` `C` `MPU6050` `PID Control` `Sensor Fusion` `Real-Time Systems`
 
-Include:
-
-* Electrical Engineering @ Jadavpur University
-* AI/ML
-* Robotics
-* Computer Vision
-* Intelligent Control
-* Embedded Systems
-
-Add a small engineering-themed SVG beside it.
+</details>
 
 ---
 
-# Featured Projects
+## ◈ Technical Stack
 
-Replace expandable `<details>` sections with premium project cards.
-
-Each card should include:
-
-* custom SVG visualization
-* project title
-* concise description
-* technologies
-* engineering highlights
-
-Cards should have consistent styling.
+| Domain | Tools |
+|---|---|
+| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
+| **ML / DL** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) |
+| **Data** | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) |
+| **Embedded** | ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white) `ESP32` `MPU6050` `L298N` `IR Sensors` |
+| **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white) ![Colab](https://img.shields.io/badge/Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=black) |
 
 ---
 
-## Project 1 — TraffIQ
+## ◈ GitHub Stats
 
-Theme:
+<div align="center">
 
-Autonomous Traffic Intelligence
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Sagnick-Paul&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sagnick-Paul&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
 
-Create an animated SVG showing:
+</div>
 
-* moving car
-* traffic signal
-* lane markings
-* flowing traffic
+<div align="center">
 
-Animations:
+[![GitHub Streak](https://streak-stats.demolab.com?user=Sagnick-Paul&theme=github-dark-blue&hide_border=true&background=0d1117)](https://git.io/streak-stats)
 
-* moving vehicle
-* changing traffic lights
-* subtle road movement
-
-Tech:
-
-YOLO
-
-ONNX
-
-OpenCV
-
-Computer Vision
-
-Deep Learning
+</div>
 
 ---
 
-## Project 2 — Multi-AI Agent System
+## ◈ Currently Exploring
 
-Theme:
-
-Distributed Intelligence
-
-Create an animated SVG showing:
-
-* central AI
-* connected agents
-* pulsing nodes
-* moving packets
-* glowing connections
-
-Animation:
-
-network continuously exchanging information.
-
-Tech:
-
-LangGraph
-
-FastAPI
-
-PostgreSQL
-
-Gemini
-
-Mistral
-
-RAG
-
-Multi-Agent Systems
+| Area | Topics |
+|---|---|
+| 🧠 **Deep Learning** | CNNs · RNNs · Transformers · Attention Mechanisms |
+| ⚙️ **Control Theory** | Optimal Control · MPC · Adaptive Systems |
+| 🚀 **Deployment** | ONNX · TorchScript · Edge Inference |
+| 🤖 **Robotics** | SLAM · Path Planning · Sensor Fusion |
 
 ---
 
-## Project 3 — NeuroSeg AI
+## ◈ Let's Connect
 
-Theme:
+I'm actively looking for **internship opportunities** in AI/ML, Robotics, and Intelligent Systems.  
+If you're building something interesting — I'd love to talk.
 
-Medical Imaging
+<div align="center">
 
-Create an MRI scanner visualization.
+[![LinkedIn](https://img.shields.io/badge/Let's_Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sagnick-paul-9aa30a352/)
+[![Email](https://img.shields.io/badge/Drop_Me_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sp.professional2005@gmail.com)
 
-Animation:
-
-* horizontal scan line
-* highlighted tumor
-* pulsing segmentation overlay
-* medical interface aesthetic
-
-Tech:
-
-PyTorch
-
-UNet
-
-Computer Vision
-
-Medical Imaging
-
-Segmentation
-
-Dice
-
-IoU
+</div>
 
 ---
 
-## Project 4 — Self-Balancing Robot
+<div align="center">
 
-Theme:
+*"The best control system is one that makes complexity invisible."*
 
-Control Systems
-
-Animated SVG:
-
-robot balancing itself.
-
-Animation:
-
-* body tilts left/right
-* wheels rotate
-* IMU indicator
-* PID signal visualization
-
-Tech:
-
-Arduino
-
-ESP32
-
-PID
-
-MPU6050
-
-Sensor Fusion
-
-Embedded Systems
-
----
-
-# Technical Skills
-
-Replace tables with a visual technology map.
-
-Create a custom SVG.
-
-Floating technology boxes.
-
-Groups:
-
-Languages
-
-Python
-
-C
-
-Java
-
----
-
-AI / ML
-
-PyTorch
-
-TensorFlow
-
-OpenCV
-
-Scikit-learn
-
----
-
-Embedded
-
-Arduino
-
-ESP32
-
-MPU6050
-
-EasyEDA
-
-KiCad
-
----
-
-Deployment
-
-Docker
-
-Git
-
-GitHub
-
-Linux
-
-Render
-
-Vercel
-
----
-
-Boxes should slowly float.
-
-Small connection lines between related technologies.
-
----
-
-# GitHub Statistics
-
-Use existing GitHub stats.
-
-Place them inside modern cards.
-
-Include:
-
-GitHub Stats
-
-Top Languages
-
-Contribution Streak
-
-Use GitHub Dark styling.
-
----
-
-# Currently Exploring
-
-Replace markdown table.
-
-Create an animated SVG dashboard.
-
-Display:
-
-Deep Learning
-
-Robotics
-
-Edge AI
-
-Control Theory
-
-Computer Vision
-
-Multi-Agent Systems
-
-Represent each as:
-
-* animated progress bars
-* glowing indicators
-* engineering dashboard style
-
----
-
-# Footer
-
-Create an engineering network visualization.
-
-Animated connection graph.
-
-Include:
-
-LinkedIn
-
-GitHub
-
-Email
-
-Portfolio
-
-Research Interests
-
-The footer should feel like a digital control network.
-
----
-
-# Typography
-
-Use:
-
-* strong section headers
-* horizontal dividers
-* consistent spacing
-* clean hierarchy
-* minimal clutter
-
-Avoid excessive emojis.
-
-Use engineering icons only where appropriate.
-
----
-
-# Animation Guidelines
-
-Animations must remain subtle.
-
-Examples:
-
-* flowing electrical current
-* pulsing LEDs
-* moving scan lines
-* rotating gears
-* floating nodes
-* balancing robot
-* moving vehicle
-* animated network packets
-
-Animation duration:
-
-3–8 seconds.
-
-Infinite looping.
-
-Smooth easing.
-
----
-
-# Performance
-
-Keep repository lightweight.
-
-Optimize every SVG.
-
-Avoid excessive DOM complexity.
-
-Ensure fast GitHub loading.
-
----
-
-# README Structure
-
-```
-Animated Hero
-
-Social Links
-
-About
-
-Featured Projects
-
-Technical Skills
-
-GitHub Statistics
-
-Currently Exploring
-
-Connect
-
-Animated Footer
-```
-
----
-
-# Code Quality Requirements
-
-* Produce clean, modular SVG files.
-* Comment complex SVG sections.
-* Organize assets logically.
-* Maintain consistent naming.
-* Keep README readable.
-* Avoid duplicated markup.
-* Ensure every asset renders correctly on GitHub.
-
----
-
-# Deliverables
-
-Generate:
-
-* Complete production-ready `README.md`
-* Every SVG asset
-* Correct folder structure
-* Optimized SVG animations
-* Responsive GitHub-compatible layout
-* No placeholders
-* No incomplete sections
-* No TODO comments
-* Fully polished engineering portfolio ready to push to GitHub.
+</div>
