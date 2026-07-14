@@ -1,148 +1,122 @@
 <div align="center">
 
-### `Engineering Intelligence — from Circuits to Neural Networks.`
+# Sagnick Paul
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sagnick-paul-9aa30a352/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sp.professional2005@gmail.com)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sagnick-Paul)
+### Engineering Intelligence — from Circuits to Neural Networks
 
-![Profile Views](https://komarev.com/ghpvc/?username=Sagnick-Paul&style=for-the-badge&color=0d1117)
+**Building autonomous systems that perceive, decide, and act.**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sagnick-paul-9aa30a352/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sp.professional2005@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sagnick-Paul)
 
 </div>
 
 ---
 
-## ◈ About
+## About
+
+Electrical Engineering undergraduate @ Jadavpur University, building intelligent systems at the intersection of **control theory**, **machine learning**, and **embedded hardware**. 
+
+**Specialization:** End-to-end autonomous systems — from sensor fusion on microcontrollers to production-grade neural networks.  
+**Philosophy:** Systems that work in the real world, not just on benchmarks.
 
 ```python
 sagnick = {
-    "role"      : "Electrical Engineering Undergrad @ Jadavpur University",
-    "location"  : "Kolkata, West Bengal, India 🇮🇳",
-    "focus"     : ["Deep Learning", "Autonomous Systems", "Intelligent Control"],
-    "building"  : "Systems that perceive, decide, and act.",
-    "open_to"   : "AI/ML · Robotics · Intelligent Systems Internships"
+    "focus": ["Deep Learning", "Autonomous Driving", "Multi-Agent Systems", "Real-Time Control"],
+    "seeking": "AI/ML · Robotics · Autonomous Systems Internships"
 }
 ```
 
-I operate at the intersection of **control theory**, **machine learning**, and **embedded hardware** — building end-to-end intelligent systems, from sensor fusion on microcontrollers to CNN pipelines in PyTorch. I care about systems that *work in the real world*, not just on benchmarks.
+---
+
+## Featured Projects
+
+### 🚗 **TraffIQ: Autonomous Driving System**  
+**🏆 Ranked Top 5 (All India)**
+
+End-to-end navigation stack with behavioral cloning and real-time obstacle detection.
+
+- **Behavioral Cloning pipeline** trained on Udacity + CARLA simulator datasets
+- **YOLOv8n** for real-time obstacle/lane detection  
+- **ONNX quantization** for Raspberry Pi 4B deployment (<50ms inference)
+- Achieved smooth steering on unseen tracks with robust perception
+
+**Stack:** `Python` `PyTorch` `YOLOv8` `ONNX` `OpenCV` `CARLA` `Raspberry Pi`
 
 ---
 
-## ◈ Project Portfolio
+### 🧠 **Multi-Agent Research Laboratory**
 
-<details>
-<summary><b>🚀 Jet Image Classification & Anomaly Detection</b></summary>
+Advanced collaborative platform for real-time research synthesis.
 
-> *High-Energy Physics meets Deep Learning*
+- **Live web search & content scraping** with LangChain agent orchestration
+- **Academic evaluation** and fact-checking across sources
+- **Streamed SSE logs** to premium React dashboard with live updates
+- **One-click exports** to formatted PDF and DOCX via FastAPI backend
 
-- Designed a **CNN-based multi-class classifier** for jet image recognition
-- Conducted a comparative study: **CNN vs PCA** feature extraction performance
-- Built a **CNN Autoencoder** for unsupervised anomaly detection using reconstruction-error scoring
-- Full pipeline in **PyTorch**, with evaluation metrics and ablation studies
-
-**Stack:** `PyTorch` `CNN` `Autoencoders` `PCA` `Anomaly Detection` `HEP`
-
-</details>
+**Stack:** `Python` `FastAPI` `LangChain` `React` `TypeScript` `TailwindCSS` `SSE`
 
 ---
 
-<details>
-<summary><b>🧠 Brain MRI Tumor Segmentation</b></summary>
+### 🧬 **Brain MRI Tumor Segmentation**
 
-> *Computer Vision for Clinical Imaging*
+Clinical-grade diagnostic pipeline for automated tumor localization.
 
-- End-to-end **segmentation pipeline** for MRI tumor localization
+- **U-Net CNN** for pixel-level segmentation with dice coefficient optimization
 - Robust preprocessing, augmentation, and domain-specific normalization
-- Evaluated with **Dice Coefficient** and **IoU** — clinically relevant metrics
-- Modular architecture for straightforward backbone swapping
+- **Interactive Streamlit app** for real-time diagnostic visualization
+- Modular architecture for backbone experimentation
 
-**Stack:** `PyTorch` `CNN` `Medical Imaging` `Dice/IoU` `Augmentation`
-
-</details>
+**Stack:** `PyTorch` `U-Net` `OpenCV` `Streamlit` `Medical Imaging`
 
 ---
 
-<details>
-<summary><b>🎵 Song Cohort Analysis</b></summary>
+### 🤖 **Self-Balancing Robot**
 
-> *Behavioral Intelligence from Listening Patterns*
+Real-time inverted-pendulum control on constrained embedded hardware.
 
-- Applied **clustering algorithms** for user segmentation based on music behavior
-- Modeled **temporal listening trends** and retention dynamics
-- Produced cohort visualizations for actionable behavioral insights
+- **Dual-axis PID stabilization** with auto-tuned gain parameters
+- **MPU6050 sensor fusion** in C++ for sub-10ms response time
+- Stable operation on slopes, uneven terrain, and dynamic perturbations
+- Bluetooth remote control for live parameter adjustment
 
-**Stack:** `Python` `Scikit-Learn` `Pandas` `Clustering` `Data Visualization`
-
-</details>
+**Stack:** `C++` `Arduino` `MPU6050` `Real-Time Control` `Sensor Fusion`
 
 ---
 
-<details>
-<summary><b>🤖 Self-Balancing Robot</b></summary>
+## Technical Arsenal
 
-> *Real-Time Control on Constrained Hardware*
-
-- Full hardware-software stack: **Arduino + MPU6050 + L298N**
-- Implemented real-time **PID stabilization** with tuned gain parameters
-- Achieved stable operation on **slopes and uneven terrain**
-- Added **Bluetooth remote control** for live parameter adjustment
-
-**Stack:** `Arduino` `C` `MPU6050` `PID Control` `Sensor Fusion` `Real-Time Systems`
-
-</details>
-
----
-
-## ◈ Technical Stack
-
-| Domain | Tools |
+| **Domain** | **Stack** |
 |---|---|
-| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
-| **ML / DL** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) |
-| **Data** | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) |
-| **Embedded** | ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white) `ESP32` `MPU6050` `L298N` `IR Sensors` |
-| **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white) ![Colab](https://img.shields.io/badge/Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=black) |
+| **Languages** | Python · C++ · Java |
+| **ML / DL** | PyTorch · TensorFlow · Scikit-Learn · OpenCV |
+| **Data** | NumPy · Pandas · Matplotlib · Seaborn |
+| **Embedded** | Arduino · ESP32 · MPU6050 · Real-Time Systems |
+| **Production** | ONNX · TorchScript · FastAPI · Docker |
+| **Tools** | Git · GitHub · Kaggle · Colab · Streamlit |
 
 ---
 
-## ◈ GitHub Stats
+## Currently Exploring
 
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Sagnick-Paul&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sagnick-Paul&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Sagnick-Paul&theme=github-dark-blue&hide_border=true&background=0d1117)](https://git.io/streak-stats)
-
-</div>
+- **CNNs / RNNs / Transformers** — attention mechanisms and efficient architectures
+- **Model Deployment** — ONNX quantization, edge inference, latency optimization
+- **Optimal Control** — MPC, adaptive systems, trajectory planning
+- **Robotics** — SLAM, path planning, multi-agent coordination
 
 ---
 
-## ◈ Currently Exploring
+## Let's Talk
 
-| Area | Topics |
-|---|---|
-| 🧠 **Deep Learning** | CNNs · RNNs · Transformers · Attention Mechanisms |
-| ⚙️ **Control Theory** | Optimal Control · MPC · Adaptive Systems |
-| 🚀 **Deployment** | ONNX · TorchScript · Edge Inference |
-| 🤖 **Robotics** | SLAM · Path Planning · Sensor Fusion |
+I'm actively seeking internship opportunities in **AI/ML**, **Robotics**, and **Autonomous Systems**.
 
----
-
-## ◈ Let's Connect
-
-I'm actively looking for **internship opportunities** in AI/ML, Robotics, and Intelligent Systems.  
-If you're building something interesting — I'd love to talk.
+If you're building something at the frontier — internship, collaboration, or just technical discussion — I'd love to connect.
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/Let's_Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sagnick-paul-9aa30a352/)
-[![Email](https://img.shields.io/badge/Drop_Me_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sp.professional2005@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sagnick-paul-9aa30a352/)
+[![Email](https://img.shields.io/badge/Drop_an_Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sp.professional2005@gmail.com)
 
 </div>
 
@@ -150,6 +124,6 @@ If you're building something interesting — I'd love to talk.
 
 <div align="center">
 
-*"The best control system is one that makes complexity invisible."*
+*"The best control system makes complexity invisible."*
 
 </div>
